@@ -74,6 +74,8 @@ python main.py
 API Base URL: http://localhost:8000
 Swagger Documentation: http://localhost:8000/docs
 
+---
+
 # Integration Guide
 ## Backend (Integration Layer)
 ### 1. Check Beneficiary Eligibility
@@ -133,6 +135,8 @@ Payload: List of village objects.
 ]
 ```
 Note: This is a Partial Update. It only updates the fields you send; it won't delete existing Census data.
+
+---
 
 # Troubleshooting
 ### 1. "500 Internal Server Error" on /chat?
